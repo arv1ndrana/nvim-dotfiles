@@ -15,7 +15,7 @@ vim.opt.mouse = "a"
 
 -- show mode
 
-vim.opt.showmode = false
+vim.opt.showmode = true
 
 -- scroll off
 
@@ -58,4 +58,4 @@ vim.opt.splitbelow = true
 -- list
 
 vim.opt.list = true
-vim.opt.listchars = { tab = "| ", trail = "·", nbsp = "␣" }
+vim.opt.listchars = { tab = "┊ ", trail = "·", nbsp = "␣" }
